@@ -135,7 +135,7 @@ namespace 언어_특성_활용하기
         }
         public override string ToString()
         {
-            return string.Format("번호:{0} 이름:{1} 현재장소: {2}", sn, name, place);
+            return string.Format("번호:{0} 이름:{1} 현재장소: {2} HP : {3} IQ: {4} , CP: {5}", sn, name, place, hp, iq, cp);
         }
     }
 }
